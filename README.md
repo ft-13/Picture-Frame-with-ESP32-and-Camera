@@ -50,13 +50,13 @@ days = 26800mAh / 2mA / 24h = 558 days (1.5 years).
 But lets make the calculation with some assumptions:  
 (I have not yet made any exact measurements, so this is a simplified calculation)
 - 1 picture per day and 2 µSD card read access' per day.
-- take picture and send to display and µSD card: 300mA for 8s
-- load picture from µSD card and send to display: 250mA for 5s
+- take picture and send to display and µSD card: 300mA for 14s
+- load picture from µSD card and send to display: 250mA for 8s
   
 We need to know the average current consumption  
-Iavg = (300mA * 8s + 250mA * 5s * 2 + 2mA * 3582s) / 3600s = 2.73mA  
+Iavg = (300mA * 14s + 250mA * 8s * 2 + 2mA * 3570s) / 3600s = 4.26mA  
 to calculate how long the powerbank lasts  
-days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
+days = 26800mAh / Iavg / 24h = 262 days.
   
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/11.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/12.JPG" width="70%">
