@@ -17,11 +17,11 @@
 
 Part | Description | Link 
 --- | --- | ---
-Firebeetle2 | 301 | 283
+Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | 283
 IT8951 display HAT | 301 | 283
 epaper display | 1200x825, 9.7inch | 283
 µSD shield | D1 mini shield adapter | 283
-µSD shield | D1 mini shield adapter | 283
+HALL sensors | DRV5032AJ TI | 283
 
 
 [comment]: <video width="320" height="240" controls>
