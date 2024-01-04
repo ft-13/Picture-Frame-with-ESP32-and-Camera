@@ -7,7 +7,7 @@ Special thanks go to my wife, who has always been very patient with my handicraf
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
-  <source src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/master/readme_pics/demo.mp4" type="video/mp4" />
+  <source src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/master/_readme_pics/demo.mp4" type="video/mp4" />
 </video>
 
 ## Software
