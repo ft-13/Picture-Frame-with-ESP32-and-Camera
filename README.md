@@ -12,9 +12,7 @@
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/4.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/5.JPG" width="70%">
 
-
 ### BOM
-
 Part | Description | Link 
 --- | --- | ---
 Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | [dfrobot link](https://www.dfrobot.com/product-2677.html)
@@ -57,6 +55,8 @@ days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/11.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/12.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/13.JPG" width="70%">
+
+## Software
 
 
 [comment]: <video width="320" height="240" controls>
