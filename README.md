@@ -1,10 +1,12 @@
 
 # Picture-Frame-with-ESP32-and-Camera
-
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/10.JPG" width="80%">
 
-## Hardware
+## Software
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/flowchart.JPG" width="70%">
 
+
+## Hardware
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/1.JPG" width="80%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/9.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/2.JPG" width="70%">
@@ -55,10 +57,6 @@ days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/11.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/12.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/13.JPG" width="70%">
-
-## Software
-
-<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/flowchart.JPG" width="70%">
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
