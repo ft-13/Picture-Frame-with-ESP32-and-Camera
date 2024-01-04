@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TS3A5018PW")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/TS3A5018PW.kicad_sym")(options "")(descr ""))
+)
