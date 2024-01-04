@@ -5,10 +5,7 @@ The picture frame consists of Firebeetle2 (ESP32-S3) with OV2640 camera, epaper 
   
 Special thanks go to my wife, who has always been very patient with my handicrafts :)
 
-[comment]: <video width="320" height="240" controls>
-<video autoplay loop style="width:100%; height: auto;">
-  <source src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/main/_readme_pics/demo_video1.mp4" type="video/mp4">
-</video>
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/main/_readme_pics/demo_video2.gif" width="40" height="40" />
 
 ## Software
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/flowchart.JPG" width="70%">
