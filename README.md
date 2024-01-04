@@ -27,7 +27,7 @@ epaper display | 1200x825, 9.7inch | [Waveshare datasheet](https://www.waveshare
 HALL sensors | DRV5032FA TI | [TI datasheet](https://www.ti.com/lit/ds/symlink/drv5032.pdf?ts=1704351535372&ref_url=https%253A%252F%252Fwww.google.com%252F)
 Analog Switch | TS3A5018PW TI | [TI datasheet](https://www.ti.com/lit/ds/symlink/ts3a5018.pdf?ts=1704375672641&ref_url=https%253A%252F%252Fwww.google.com%252F)
 Powerbank | Charmast 26800mAh | [Amazon link](https://www.amazon.de/Charmast-Powerbank-Ladeger%C3%A4t-Eing%C3%A4ngen-Smartphones-Schwarz/dp/B073FJ9X2J)
-Picture frame | Ikea black 21x30 cm | [ikea link](https://www.ikea.com/de/de/p/ribba-rahmen-schwarz-60378396/)
+Picture frame | Ikea black 21x30 cm | [Ikea link](https://www.ikea.com/de/de/p/ribba-rahmen-schwarz-60378396/)
 
 
 
