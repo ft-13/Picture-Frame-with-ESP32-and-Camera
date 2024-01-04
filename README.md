@@ -39,7 +39,7 @@ What else? The powerbank on/off switch is connected to IP5306. As soon as IP5306
 
 ### Current Consumption
 My goal was it that the powerbank lasts for about 1 year. Of course it depends on how many pictures do you take and how many picture do you load from µSD card.
-In deep sleep mode the entire electronic (excluding powerbank) draws a current of about 334µA. Unfortunately, this is not the figure that can be used for the calculation. The IP5310 DCDC converter has a converter efficiency that drives the figure up at the end. That's why I measured the current consumption from the battery itself. The unloaded powerbank draws a current of 1.4mA and in loaded condition (334µA) the current consumption is about 2mA.
+In deep sleep mode the entire electronic (excluding powerbank) draws a current of about 344µA. Unfortunately, this is not the figure that can be used for the calculation. The IP5310 DCDC converter has a converter efficiency that drives the figure up at the end. That's why I measured the current consumption from the battery itself. The unloaded powerbank draws a current of 1.4mA and in loaded condition (334µA) the current consumption is about 2mA.
 If I never took a photo, i.e. ESP32 is in deep sleep all the time, the power bank would last:
 days = 26800mAh / 2mA / 24h = 558 days (1.5 years).
 
