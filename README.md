@@ -29,6 +29,9 @@ Analog Switch | TS3A5018PW TI | [TI datasheet](https://www.ti.com/lit/ds/symlink
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/6.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/7.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/8.JPG" width="70%">
+
+### Current Consumption
+
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/11.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/12.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/13.JPG" width="70%">
