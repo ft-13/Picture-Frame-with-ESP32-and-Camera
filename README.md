@@ -49,8 +49,9 @@ But lets make the calculation with some assumptions:
 - take picture and send to display and µSD card: 300mA for 8s
 - load picture from µSD card and send to display: 250mA for 5s
   
-We need to know the average current consumption:  
+We need to know the average current consumption  
 Iavg = (300mA * 8s + 250mA * 5s * 2 + 2mA * 3582s) / 3600s = 2.73mA  
+to calculate how long the powerbank last  
 days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
 
 
