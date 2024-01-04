@@ -1,7 +1,28 @@
 
 # Picture-Frame-with-ESP32-and-Camera
 
-[comment]: <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/master/readme_pics/Unbenannt.JPG" width="70%">
+## Hardware
+
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/1.JPG" width="80%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/9.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/2.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/3.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/4.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/5.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/6.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/7.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/8.JPG" width="70%">
+
+### BOM
+
+Part | Description | Link 
+--- | --- | ---
+Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | 283
+IT8951 display HAT | 301 | 283
+epaper display | 1200x825, 9.7inch | 283
+µSD shield | D1 mini shield adapter | 283
+HALL sensors | DRV5032AJ TI | 283
+
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
