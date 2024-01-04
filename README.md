@@ -58,7 +58,7 @@ days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
 
 ## Software
 
-<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/14.JPG" width="70%">
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/flowchart.JPG" width="70%">
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
