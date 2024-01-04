@@ -15,9 +15,14 @@
 
 ### BOM
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Part | Description | Link 
+--- | --- | ---
+Firebeetle2 | 301 | 283
+IT8951 display HAT | 301 | 283
+epaper display | 1200x825, 9.7inch | 283
+µSD shield | D1 mini shield adapter | 283
+µSD shield | D1 mini shield adapter | 283
+
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
