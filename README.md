@@ -43,13 +43,13 @@ In deep sleep mode the entire electronic (excluding powerbank) draws a current o
 If I never took a photo, i.e. ESP32 is in deep sleep all the time, the power bank would last:
 days = 26800mAh / 2mA / 24h = 558 days (1.5 years).
 
-But lets make the calculation with some assumptions:
+But lets make the calculation with some assumptions:  
 (I have not yet made any exact measurements, so this is a simplified calculation)
 - 1 picture per day and 2 µSD card read access' per day.
 - take picture and send to display and µSD card: 300mA for 8s
 - load picture from µSD card and send to display: 250mA for 5s
   
-We need to know the average current consumption:
+We need to know the average current consumption:  
 Iavg = (300mA * 8s + 250mA * 5s * 2 + 2mA * 3582s) / 3600s = 2.73mA  
 days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
 
