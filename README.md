@@ -1,7 +1,9 @@
 
 # Picture-Frame-with-ESP32-and-Camera
 
-[comment]: <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/master/readme_pics/Unbenannt.JPG" width="70%">
+#Hardware
+
+<img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/1.JPG" width="70%">
 
 [comment]: <video width="320" height="240" controls>
 <video autoplay loop style="width:100%; height: auto;">
