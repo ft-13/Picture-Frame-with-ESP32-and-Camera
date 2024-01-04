@@ -51,10 +51,9 @@ But lets make the calculation with some assumptions:
   
 We need to know the average current consumption  
 Iavg = (300mA * 8s + 250mA * 5s * 2 + 2mA * 3582s) / 3600s = 2.73mA  
-to calculate how long the powerbank last  
+to calculate how long the powerbank lasts  
 days = 26800mAh / Iavg / 24h = 409 days (1.1 years).
-
-
+  
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/11.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/12.JPG" width="70%">
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/13.JPG" width="70%">
