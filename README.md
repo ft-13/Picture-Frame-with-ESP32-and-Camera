@@ -1,7 +1,7 @@
 
 # Picture-Frame-with-ESP32-and-Camera
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/10.JPG" width="80%">
-The picture frame consists of Firebeetle2 (ESP32-S3) with OV2640 camera, epaper display, powerbank and a self-desined carrier PCB. The hole electronic is mounted on a 3D printed insert. There are 3 HALL sensors attached to the wood of picture frame: top, bottom left and bottom right. µSD card shield is mounted to the carrier PCB and makes it possible to save the camera picture or to load a picture. Using a magnet triggers one of the three HALL sensors and wakes up ESp32 from deep sleep. When the top HALL sensor is triggered, the picture frame takes a picture and sends it to the epeaper and the µSD card. If the left or right sensor is triggered, the previous or next image is loaded from the µSD card to the epeaper display.  
+The picture frame consists of Firebeetle2 (ESP32-S3) with OV2640 camera, epaper display, powerbank and a self-desined carrier PCB. The whole electronic is mounted on a 3D printed insert. There are 3 HALL sensors attached to the wood of picture frame: top, bottom left and bottom right. µSD card shield is mounted to the carrier PCB and makes it possible to save the camera picture or to load a picture. Using a magnet triggers one of the three HALL sensors and wakes up ESp32 from deep sleep. When the top HALL sensor is triggered, the picture frame takes a picture and sends it to the epeaper and the µSD card. If the left or right sensor is triggered, the previous or next image is loaded from the µSD card to the epeaper display.  
   
 Special thanks go to my wife, who has always been very patient with my handicrafts :)
 
