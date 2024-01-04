@@ -22,11 +22,12 @@
 
 Part | Description | Link 
 --- | --- | ---
-Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | 283
-IT8951 display HAT | 301 | 283
-epaper display | 1200x825, 9.7inch | 283
-µSD shield | D1 mini shield adapter | 283
-HALL sensors | DRV5032FA TI | [283](https://www.ti.com/lit/ds/symlink/drv5032.pdf?ts=1704351535372&ref_url=https%253A%252F%252Fwww.google.com%252F)
+Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | [dfrobot link](https://www.dfrobot.com/product-2677.html)
+IT8951 display HAT | - | [Waveshare link](https://www.waveshare.com/9.7inch-e-paper-hat.htm)
+epaper display | 1200x825, 9.7inch | [Waveshare datasheet](https://www.waveshare.com/w/upload/f/ff/9.7inch_E-paper_Specification.PDF)
+µSD shield | D1 mini shield adapter | [AZ delivery link](https://www.az-delivery.de/products/micro-sd-card-adapter-shield)
+HALL sensors | DRV5032FA TI | [TI datasheet](https://www.ti.com/lit/ds/symlink/drv5032.pdf?ts=1704351535372&ref_url=https%253A%252F%252Fwww.google.com%252F)
+Analog Switch | TS3A5018PW TI | [TI datasheet]([https://www.ti.com/lit/ds/symlink/drv5032.pdf?ts=1704351535372&ref_url=https%253A%252F%252Fwww.google.com%252F](https://www.ti.com/lit/ds/symlink/ts3a5018.pdf?ts=1704375672641&ref_url=https%253A%252F%252Fwww.google.com%252F))
 
 
 [comment]: <video width="320" height="240" controls>
