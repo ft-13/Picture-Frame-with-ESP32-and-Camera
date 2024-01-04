@@ -26,7 +26,7 @@ Firebeetle2 | ESP32-S3 8MB PSRAM and OV2640 camera | 283
 IT8951 display HAT | 301 | 283
 epaper display | 1200x825, 9.7inch | 283
 µSD shield | D1 mini shield adapter | 283
-HALL sensors | DRV5032AJ TI | 283
+HALL sensors | DRV5032FA TI | [283](https://www.ti.com/lit/ds/symlink/drv5032.pdf?ts=1704351535372&ref_url=https%253A%252F%252Fwww.google.com%252F)
 
 
 [comment]: <video width="320" height="240" controls>
