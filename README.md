@@ -6,7 +6,7 @@ The picture frame consists of Firebeetle2 (ESP32-S3) with OV2640 camera, epaper 
 Special thanks go to my wife, who has always been very patient with my handicrafts :)
 
   <video controls="true" allowfullscreen="true">
-    <source src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/master/_readme_pics/demo_video.mp4" type="video/mp4">
+    <source src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/tree/main/_readme_pics/demo_video.mp4" type="video/mp4">
   </video>
   
 
