@@ -65,27 +65,27 @@ days = 26800mAh / Iavg / 24h = 262 days.
 <img src="https://github.com/ft-13/Picture-Frame-with-ESP32-and-Camera/blob/main/_readme_pics/13.JPG" width="70%">
 
 ## FAQ
-1. Why is the carrier PCB so hugh?
+1. Why is the carrier PCB so hugh?  
    Firebeetle2 (Camera has short flex PCB) and IT8951 cannot not be postioned on the same side, as the flex PCB of epaper fills the entire bottom side. Therefore there is no space left where the camera could see through.
-2. Why did you use Firebeetle2? What's so special about?
+2. Why did you use Firebeetle2? What's so special about?  
    The Firebeetle2 has a DCDC Converter, which can be configured over I2C and can deactivate the power of the camera, thus bringing the power consumption of the camera to null.
-3. Why is the size of the camera picture (XGA 1024x768) smaller than the available size of the display (1200x825)?
+3. Why is the size of the camera picture (XGA 1024x768) smaller than the available size of the display (1200x825)?  
    Because the passpartout cut-out of the picture frame has nearly the size of XGA. Of course I could have bought a passpartout with a larger cut-out, which I will do next.
-4. If you have already designed your own PCB, why didn't you include a charging circuit instead of struggling with the power bank?
+4. If you have already designed your own PCB, why didn't you include a charging circuit instead of struggling with the power bank?  
    I didn't do much research but I couldn't find a suitable Li-Ion charging IC with integrated boost converter and pass through function.
    I also wanted to keep the development time as short as possible and do without non-SOICs, as I soldered the components on by hand.
    And it was also fun "hacking" the powerbank.
-5. Why did you decide to use Hall sensors instead of switches, proximity sensors or even gesture recognition using the camera?
+5. Why did you decide to use Hall sensors instead of switches, proximity sensors or even gesture recognition using the camera?  
    The current consumption of the Hall sensors is a maximum of 3.5µA per sensor, as other sensor technologies cannot keep up.
    I wanted to do without electromechanical switches, as the overall picture would not have been nice for me, apart from the fact that I couldn't find any very small built-in pushbuttons.
    Gesture recognition using the ESP camera would have increased power consumption and drastically reduced battery life.
    A capacitive proximity switch consisting of e.g. an AD7151/AD7156 and a capacitive foil would certainly have worked as well, if not more elegantly, but in this case I wanted to save costs as I had the Hall sensors lying around anyway.
-6. In which format are the files saved on the SD card or in which format do they have to be?
+6. In which format are the files saved on the SD card or in which format do they have to be?  
    The recorded image is saved as raw bytes with an ascending number and the file extension .txt. The file size is always exactly 768432 bytes (1024x768 pixels and 8bit/pixel). 
-7. Is there a way to view the images on the SD card on a PC and is it possible to save images other than those taken by the camera itself?
+7. Is there a way to view the images on the SD card on a PC and is it possible to save images other than those taken by the camera itself?  
    Yes, both are possible. It is possible with the free tool magick e.g. In the repository folder "Software/2_pic_converter" there is a self-written python tool.
    This tool converts all jpg images in a folder and stores them in an "output" folder. These can then simply be copied to the SD card (with ascending number).
    With the command "magick -depth 8 -size 1024x768 gray:files_on_sd_card.txt result.jpg" the raw bytes can be converted back into a jpg image.
    The tool is currently very simple and does not yet have any terminal arguments etc.
-8. AI generated pictures?
+8. AI generated pictures?  
    The next upgrade will be for my Raspberry Pi server to generate an image once a day from an AI on the internet and then send it to the picture frame via Wifi.
