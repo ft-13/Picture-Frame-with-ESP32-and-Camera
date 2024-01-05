@@ -102,7 +102,7 @@ void cam_pic_to_sd_and_disp(){
   
   camera_fb_t *fb = NULL;
 
-  spi.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
+  spi.beginTransaction(SPISettings(24000000, MSBFIRST, SPI_MODE0));
   if(!IT8951_Init()){
     blink_led_error();
     return;      
@@ -115,7 +115,7 @@ void cam_pic_to_sd_and_disp(){
   digitalWrite(LED_SHOT, ON);
 
   // get 5 frames for camera settling
-  for(uint8_t i=0; i<5; i++){
+  for(uint8_t i=0; i<1; i++){ // but 1 frame seems enough
     fb = esp_camera_fb_get();
     while (!fb);
     esp_camera_fb_return(fb);
@@ -131,7 +131,7 @@ void cam_pic_to_sd_and_disp(){
 
   digitalWrite(SW_DISP_SD, HIGH);
   delay(100);
-  if (!SD.begin(CS, spi, 20000000)){
+  if (!SD.begin(CS, spi, 24000000)){
     blink_led_error();
     SD.end();
     return;
@@ -168,7 +168,7 @@ void pic_from_sd_to_disp(uint8_t ts){
     
   digitalWrite(SW_DISP_SD, HIGH);
   delay(100);
-  if (!SD.begin(CS, spi, 20000000)){
+  if (!SD.begin(CS, spi, 24000000)){
     blink_led_error();
     return;
     esp_deep_sleep_start();
@@ -187,7 +187,7 @@ void pic_from_sd_to_disp(uint8_t ts){
     }
     SD.end();
 
-    spi.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
+    spi.beginTransaction(SPISettings(24000000, MSBFIRST, SPI_MODE0));
     digitalWrite(SW_DISP_SD, LOW);
     delay(100);
     if(!IT8951_Init()){
@@ -340,7 +340,7 @@ uint8_t camera_init(){
   config.pin_sscb_scl = SIOC_GPIO_NUM;
   config.pin_pwdn = PWDN_GPIO_NUM;
   config.pin_reset = RESET_GPIO_NUM;
-  config.xclk_freq_hz = 10000000; //9MHz war ok
+  config.xclk_freq_hz = 12000000;//10000000; //9MHz war ok
   config.frame_size = FRAMESIZE_XGA; // 1024x768
   config.pixel_format = PIXFORMAT_GRAYSCALE;//PIXFORMAT_JPEG; // for streaming
   //config.pixel_format = PIXFORMAT_RGB565; // for face detection/recognition
